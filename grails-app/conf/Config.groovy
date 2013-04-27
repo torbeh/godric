@@ -94,3 +94,8 @@ log4j = {
 grails.plugins.springsecurity.userLookup.userDomainClassName = 'eu.godric.hoa.Member'
 grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'eu.godric.hoa.MemberRole'
 grails.plugins.springsecurity.authority.className = 'eu.godric.hoa.Role'
+
+
+grails.plugins.springsecurity.facebook.domain.classname='FacebookUser'
+grails.plugins.springsecurity.facebook.appId='576990892325392'
+grails.plugins.springsecurity.facebook.secret='ac443d541dfa13d9b0c7839c339db896'
